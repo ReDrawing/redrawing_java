@@ -1,0 +1,8 @@
+digraph "br.campinas:redrawing:jar:1.0-SNAPSHOT" { 
+	"br.campinas:redrawing:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"br.campinas:redrawing:jar:1.0-SNAPSHOT" -> "org.json:json:jar:20210307:compile" ; 
+	"br.campinas:redrawing:jar:1.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.12.3:compile" ; 
+	"br.campinas:redrawing:jar:1.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.12.3:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.12.3:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.12.3:compile" ; 
+ } 
