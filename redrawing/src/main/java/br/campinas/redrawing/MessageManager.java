@@ -66,6 +66,11 @@ public class MessageManager
     public void insertMessage(String jsonMessage)
     {
         Object data = decoder.decode(jsonMessage);
+
+        if(data == null)
+        {
+            return;
+        }
         
         LinkedList<Object> list = receivedLists.get(data.getClass());
 
