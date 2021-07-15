@@ -9,7 +9,9 @@ The "redrawing" folder contains the Java Maven project with the library, and the
 
 [redrawing_java documentation](https://redrawing.github.io/docs/)
 
-# License
+# Legal
 Copyright (c) 2021 ReDrawing Campinas AUTHORS
 
 Dependencies binaries have different licenses, as specified [with the file](https://github.com/ReDrawing/redrawing_java/tree/main/processing/redrawing/library)
+
+Made with the support of "Conselho Nacional de Desenvolvimento Científico e Tecnológico" (CNPq) of Brazil
